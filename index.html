@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Library Project</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Simple Library Project</h1>
+        <h3>Local Storage Coming Soon!</h3>
+        <button id="add-book">Add Book</button>
+        <div class="entry"></div>
+        </div>
+    </div>
+    <dialog>
+        
+        <form action="#" method="POST">
+            <p>
+                <label for="title">Title <input type="text" id="title" required></label>
+            </p>
+            <p>
+                <label for="author">Author <input type="text" id="author" required></label>
+            </p>
+            <p>
+                <label for="pages">Pages <input type="number" id="pages" required></label>
+            </p>
+            <p>
+                <label for="status" >Status: 
+                    <select name="status" id="status">
+                        <option value="Reading">Currently Reading</option>
+                        <option value="Finished">Finished</option>
+                    </select>
+                </label>
+            </p>
+            <button id="close">Close</button>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+        
+    </dialog>
     <script src="app.js"></script>
 </body>
 </html>
