@@ -99,5 +99,6 @@ function deleteBook(e) {
 
     let removeDOM = entry.getElementsByTagName('div')[indexValue];
     
+    
     entry.removeChild(removeDOM);
 };
